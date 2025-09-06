@@ -60,10 +60,10 @@
 
 .head-container {
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 1920px;
+    height: 909px;
     background: #f4eaec;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 30px;
 }
@@ -90,7 +90,6 @@ button {
     width: 150px;
     height: 70px;
     padding: 10px;
-    /* margin-top: 20px; */
     border: none;
     border-radius: 8px;
     background-color: #e55473;
@@ -292,4 +291,90 @@ small {
 }
 .hide {
     display: none;
+}
+/* responsive web for phone device */
+@media screen and (max-width: 576px) {
+    .head-container {
+        display: block;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding: 5px;
+    }
+    .head-title {
+        width: 100%;
+        height: 100%;
+        font-size: 20px;
+    }
+    .head-description {
+        width: 100%;
+        height: 100%;
+        margin-top: 40px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container,
+    .section-title,
+    .main-description,
+    footer {
+        width: 100%;
+        height: 100%;
+        margin-top: 60px;
+    }
+    .container {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .tree-container,
+    .container-2,
+    .image-container {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        gap: 10px;
+        margin-top: 80px;
+    }
+
+    img {
+        width: 100%;
+        height: 80%;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .deal-container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .description {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 576px) {
+    #herro,
+    .hero-container {
+        width: 100%;
+        height: 100%;
+        line-height: 20px;
+        margin-top: 70px;
+    }
+    .click {
+        flex-direction: column;
+    }
+    input {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 576px) {
+    .foot-description {
+        width: 100%;
+    }
 }
