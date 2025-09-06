@@ -79,7 +79,7 @@
 .head-description {
     width: 634px;
     height: 90px;
-    margin-top: 100px;
+    margin-top: 90px;
     font-size: 18px;
     font-weight: bold;
     font-family: lato;
@@ -101,10 +101,141 @@ button {
 }
 /* shared - item */
 .section-title {
-    width: 393px;
-    height: 48px;
+    margin-top: 50px;
+    width: 593px;
     font-size: 40px;
     font-weight: 900;
     font-family: lato;
     color: #272727;
+}
+.main-description {
+    width: 634px;
+    height: 90px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: lato;
+    line-height: 20px;
+    color: #7b7878;
+}
+.description {
+    width: 594px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: lato;
+    line-height: 20px;
+    color: #7b7878;
+}
+.container {
+    width: 594px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+.tree-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.tree-1,
+.tree-2,
+.tree-3 {
+    width: 464px;
+    height: 605px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+}
+.tree-container a {
+    display: block;
+    color: #2d3910;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: lato;
+}
+.tree-1 {
+    background: #a721623d;
+}
+.tree-2 {
+    background: #0598a042;
+}
+.tree-3 {
+    background: #477d113b;
+}
+.container-2 {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    display: flex;
+    background: #27272715;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: lato;
+    color: #272727c7;
+    line-height: 35px;
+}
+.deal-container {
+    width: 100%;
+    margin-top: 120px;
+    height: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background: #e5547323;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+#herro {
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+}
+.control {
+    width: 866px;
+    height: 206px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+input {
+    width: 700px;
+    height: 50px;
+    background-color: #ffff;
+    color: #2727276e;
+    border: none;
+
+    font-size: 16px;
+    font-family: lato;
+    align-items: center;
+    padding: 10px;
+}
+.type {
+    display: flex;
+    gap: 8px;
+}
+.text {
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 100px;
 }
