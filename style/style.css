@@ -254,6 +254,7 @@ footer {
     width: 250px;
     height: 58px;
     font-size: 48px;
+    color: #ffff;
     font-weight: 900;
     font-family: lato;
     margin: 0 auto;
@@ -265,6 +266,9 @@ footer {
     font-family: lato;
     line-height: 20px;
     color: #7b7878;
+}
+span {
+    color: #e55473;
 }
 small {
     color: #ffff;
