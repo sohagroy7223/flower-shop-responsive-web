@@ -98,6 +98,10 @@ button {
     font-family: lato;
     font-weight: bold;
 }
+button:hover {
+    background: blue;
+    color: #ffff;
+}
 /* shared - item */
 .section-title {
     margin-top: 50px;
